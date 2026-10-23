@@ -1,0 +1,28 @@
+PRIMA & DOPO - app per confronti prima/dopo
+=============================================
+
+CONTENUTO DEL PACCHETTO
+- index.html            l'app (funziona anche da sola)
+- manifest.webmanifest  permette di installarla come app
+- sw.js                 la fa funzionare anche senza internet
+- icons/                icone dell'app
+
+COME INSTALLARLA SUL CELLULARE (consigliato)
+Per installarla serve metterla online una volta sola (gratis):
+1. Vai su https://app.netlify.com/drop (oppure usa GitHub Pages o Cloudflare Pages).
+2. Estrai lo zip e trascina l'intera cartella nella pagina. Ottieni un indirizzo https.
+3. Apri quell'indirizzo sul cellulare:
+   - iPhone (Safari): tocca Condividi, poi "Aggiungi alla schermata Home".
+   - Android (Chrome): menu a tre puntini, poi "Installa app" / "Aggiungi a schermata Home".
+4. Da quel momento l'app si apre dalla schermata Home e funziona anche offline.
+
+USO SENZA INSTALLAZIONE
+- Su computer: estrai lo zip e fai doppio clic su index.html.
+- Su Android puoi aprire index.html con Chrome dai File. Su iPhone questo metodo
+  e' limitato: usa l'installazione online descritta sopra.
+
+NOTE
+- Le foto restano sul dispositivo e non vengono caricate da nessuna parte.
+- "Scarica video" registra l'animazione: tieni aperta la schermata durante la registrazione.
+  Il video e' MP4 (o WebM se il browser non supporta MP4).
+- Il font viene caricato online la prima volta; senza connessione si usa il font di sistema.
